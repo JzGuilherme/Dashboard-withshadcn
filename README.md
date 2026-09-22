@@ -1,5 +1,11 @@
 # Workly
 
+## Deploy
+
+Site publicado no Vercel:
+
+- https://dashboard-one-gamma-48.vercel.app/
+
 Dashboard de produtividade construído com React, TypeScript, Vite, Tailwind
 CSS e componentes do shadcn/ui.
 
