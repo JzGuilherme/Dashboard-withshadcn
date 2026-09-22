@@ -1,5 +1,10 @@
 # Workly
 
+> **Importante:** a autenticação atual é uma implementação local para fins de
+> protótipo. Usuários e sessão são armazenados no `localStorage` do navegador.
+> Para uso em produção, substitua essa camada por uma API de autenticação e
+> nunca armazene senhas em texto puro no cliente.
+
 ## Deploy
 
 Site publicado no Vercel:
@@ -16,11 +21,6 @@ CSS e componentes do shadcn/ui.
 
 O projeto contém uma tela inicial de autenticação com login e cadastro, rotas
 protegidas, dashboard responsivo e opção de encerramento de sessão.
-
-> **Importante:** a autenticação atual é uma implementação local para fins de
-> protótipo. Usuários e sessão são armazenados no `localStorage` do navegador.
-> Para uso em produção, substitua essa camada por uma API de autenticação e
-> nunca armazene senhas em texto puro no cliente.
 
 Grande parte do dashboard serve como demonstração visual de layouts,
 componentes, navegação, tabelas, gráficos e interações do shadcn/ui. Algumas
